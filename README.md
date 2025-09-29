@@ -16,14 +16,13 @@ git clone https://github.com/yawsf1/Nombres-complexes-sur-java.git
 2. Open the project in IntelliJ IDEA or any Java IDE.
 3. Compile and run the Complexe class or your test main method.
 4. Example:
+5. 
 public class Main {
     public static void main(String[] args) {
         Complexe a = new Complexe(3, 2);
         Complexe b = new Complexe(1, 4);
-
         Complexe sum = a.addCom(b);
         Complexe product = a.multiCom(b);
-
         System.out.println("a = " + a);
         System.out.println("b = " + b);
         System.out.println("a + b = " + sum);
